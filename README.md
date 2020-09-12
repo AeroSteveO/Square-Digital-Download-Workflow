@@ -17,4 +17,4 @@ pip3 install -r requirements.txt
 
 
 # Contributing
-Contributions are welcome, submit a pull request and we'll take a look.
+Code and documentation contributions are welcome, submit a pull request and we'll take a look.
