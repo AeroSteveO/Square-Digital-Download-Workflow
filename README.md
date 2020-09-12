@@ -3,12 +3,16 @@ This was written as a way to support a digital download on a square site. The do
 
 # Installing
 This application relies on python 3 and pip3
-   pip3 install -r requirements.txt
+```
+pip3 install -r requirements.txt
+```
 
 # Using
   * Update the variables in the script (to be updated in the future)
   * create a new crontab with the settings
-    */5 * * * * python3 /path/to/script/main.py >>/path/to/log/distro.log
+```
+*/5 * * * * python3 /path/to/script/main.py >>/path/to/log/distro.log
+```
   * This will run the script every 5 minutes, checking for new orders and sending emails for them
 
 
